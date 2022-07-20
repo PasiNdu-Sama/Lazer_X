@@ -1,0 +1,76 @@
+{
+  "name": "Lazer_X - MD V1",
+  "description": "Lazer_X V1 >.<",
+  "repository": "https://github.com/PasiNdu-Sama/Lazer_X.git",
+  "logo": "https://telegra.ph/file/f39250b4f94fd7be7a0b7.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "env": { 
+        "ALIVE_MASSAGE": {
+            "description": "The message getting whenever you check whether the bot is online or not. This is not necessary.",
+            "required": true,
+            "value":""
+        },
+        "OWNER_NUMBER": {
+            "description": "Put your number. ex:94xxxxxxxxx",
+            "required": true,
+            "value":"94771375357"
+        },
+        "OWNER_NAME": {
+            "description": "Type your Name",
+            "required": true,
+            "value":"Moshiro360 >.<"
+        },
+        "BOT_NAME": {
+            "description": "Your BOT name",
+            "required": true,
+            "value":"Lazer_X >_<"
+        },
+       "STICKER_PACKAGE": {
+            "description": "Type a name for the Sticker Package.",
+            "required": true,
+            "value":"Lazer_X 360"
+        },
+        "SESSION_NAME": {
+            "description": "Do not change this, or i will eat your pancreas! So Leave this.",
+            "required": true,
+            "value":"session"
+        },
+        "SONG_DOWNLOAD": {
+            "description": "",
+            "required": true,
+            "value":"?Imma Downloading Your *Song* ^v^?"
+        },
+        "SOND_UPLOAD": {
+            "description": "",
+            "required": true,
+            "value":"?Imma Uploading Your *Song* ^v^?"
+        },
+        "VIDEO_DOWNLOAD": {
+            "description": "",
+            "required": true,
+            "value":"?Imma Downloading Your *Video* ^v^?"
+        },
+         "VIDEO_UPLOAD": {
+            "description": "",
+            "required": true,
+            "value":"?Imma Uploading Your *Video* ^v^?"
+        }
+   },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
