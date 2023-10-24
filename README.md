@@ -89,12 +89,12 @@ Due to Userbot; Your WhatsApp account may be banned. Lazer_X is an open source p
 ### 💻Owner, Developer & Management.
 
 <a href="https://github.com/PasiNdu-SamaraKooN/Lazer_X.git">
-    <img src="https://telegra.ph/file/81c3b795d770f63079ff6.png" width="200" height="200">
+    <img src="[https://telegra.ph/file/81c3b795d770f63079ff6.png](https://telegra.ph/me-10-24-17)" width="200" height="200">
   </a>
 
 (Pasindu_Samarakoon)
 
-<a href="https://wa.me/+94719603031">
+<a href="https://wa.me/+94788028801">
     <img src="https://img.shields.io/badge/Contact%20me%20on%20WhatsApp-purple&style=plastic">
    </a>
   
